@@ -1,0 +1,17 @@
+.mores {
+    &:hover{
+        &::after {
+            width: 100%;
+        }
+    }
+    &::after {
+        transition: all .55s var(--tr3);
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background: var(--Yellow);
+    }
+}

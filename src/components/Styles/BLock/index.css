@@ -1,0 +1,91 @@
+.slide-title {
+	margin-top: 20px;
+	& h4 {
+		color: var(--Gray, #e5e5e5);
+		font-family: Montserrat;
+		font-size: 24px;
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+	.year {
+		color: var(--white-20, rgba(255, 255, 255, 0.5));
+		font-family: Courier New;
+		font-size: 18px;
+		font-weight: 400;
+	}
+	& hr {
+		width: 100%;
+		height: 1px;
+		background: var(--white-20);
+	}
+	& button {
+		margin-top: 20px;
+		position: relative;
+		&:hover {
+			&::before {
+				width: 100%;
+			}
+		}
+		&::before {
+			position: absolute;
+			content: '';
+			width: 0;
+			left: 0;
+			bottom: -2px;
+			background: var(--Yellow);
+			height: 1px;
+			transition: all 0.55s var(--tr1);
+		}
+	}
+}
+.slick-dots {
+	display: none;
+}
+.clicks {
+	& label {
+		display: flex;
+		padding: 10px 20px;
+		align-items: flex-start;
+		gap: 10px;
+		color: var(--white-50, rgba(255, 255, 255, 0.5));
+		font-family: Courier New;
+		font-size: 18px;
+		font-weight: 700;
+		transition: all 0.55s var(--tr2);
+	}
+	& input[type='radio'] {
+		display: none;
+	}
+}
+.block {
+	margin-bottom: 160px;
+	.slides {
+		width: 450px !important;
+		height: auto !important;
+	}
+	.slick-track {
+		width: 2000px !important;
+		gap: 30px;
+		display: flex !important;
+	}
+
+	.slick-list {
+		margin-top: 70px !important;
+	}
+	.slick-next {
+		top: -30px;
+		left: 5%;
+		&::before {
+			font-size: 60px !important;
+			font-family: 'Montserrat' !important;
+		}
+	}
+	.slick-prev {
+		top: -30px;
+		left: 0;
+		&::before {
+			font-size: 60px !important;
+			font-family: 'Montserrat' !important;
+		}
+	}
+}

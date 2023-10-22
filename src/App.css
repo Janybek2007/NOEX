@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ImportCSS */
+@import './components/Styles/Header/index.css';
+@import './components/Styles/Hero/index.css';
+@import './components/Styles/MainTypes/index.css';
+@import './components/Styles/HowWeWork/index.css';
+@import './components/Styles/BLock/index.css';
+@import './components/Styles/Needs/index.css';
+@import './components/Styles/About/index.css';
+@import './components/Styles/Footer/index.css';
+@import './components/Styles/Box/index.css';
+@import './components/Styles/QuestionsAndAnswers/index.css';
+@import './components/Styles/Needs/index.css';
+@import './components/Styles/ContactUs/index.css';
+/* ImportCSS */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,regular,500,700,900);
+@font-face {
+	font-family: 'Courier New';
+	src: url('./fonts/CourierNew/couriernew.ttf');
+}
+
+:root {
+	/* *fonts  */
+	--Mont: Montserrat;
+	--Roboto: Roboto;
+	--CourierNew: Courier New;
+	/** color */
+	--BLack: #0a090d;
+	--Black-Second: #1f1f1f;
+	--Gray-Light: #f2f2f2;
+	--Gray-Dark: #393939;
+	--Gray: #e5e5e5;
+	--Yellow: #dfd1a7;
+	--Green: #a7c186;
+	--white-20: rgba(255, 255, 255, 0.2);
+
+	/** trantsition */
+	--tr1: cubic-bezier(0.37, 0.57, 0.33, 0.83);
+	--tr2: cubic-bezier(0.37, 0.57, 0.24, 0.7);
+	--tr3: cubic-bezier(0.37, 0.57, 0.24, 0.7);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 100%;
+}
+
+button,
+label,
+hr {
+	border: 0;
+	outline: 0;
+	background: 0;
+	cursor: pointer;
+}
+
+input,
+select {
+	border: 0;
+	outline: 0;
+	background: 0;
+}
+
+a,
+li,
+ul {
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	width: 100%;
+	height: 100%;
+	background: var(--BLack);
+	&::-webkit-scrollbar {
+		width: 0;
+	}
+}
+
+.wrapper {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+html {
+	scroll-behavior: smooth;
+	width: 1901px;
+	height: 100%;
+}
+.container {
+	width: 1240px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+* {
+	color: var(--white-20);
+}

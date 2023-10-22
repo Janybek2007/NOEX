@@ -1,0 +1,69 @@
+.circ {
+	display: flex;
+	padding: 10px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	width: 54px;
+	height: 54px;
+	border-radius: 100px;
+	border: 1px solid var(--white-50, rgba(255, 255, 255, 0.5));
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	& span {
+		text-align: center;
+		font-family: Montserrat;
+		font-size: 16px;
+		font-weight: 400;
+	}
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 20px;
+	& h4 {
+		font-family: Montserrat;
+		font-size: 18px;
+		font-weight: 400;
+	}
+}
+.fLines {
+	height: 88px;
+	width: 1px;
+	background: var(--white-20);
+	margin-left: 26px;
+}
+
+.wTitle {
+	width: 390px !important;
+}
+
+.work {
+	.slick-list {
+		width: 110%;
+	}
+	.slick-slider {
+		height: 500px !important;
+		overflow: hidden;
+	}
+	.slick-next {
+		top: 420px;
+		left: 100px;
+		&::before {
+			font-family: 'Montserrat' !important;
+			font-size: 60px !important;
+		}
+	}
+	.slick-prev {
+		top: 420px;
+		left: 5px !important;
+		right: 0;
+		&::before {
+			font-size: 60px !important;
+			font-family: 'Montserrat' !important;
+		}
+	}
+}

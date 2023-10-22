@@ -1,0 +1,52 @@
+.navbars {
+	& a {
+		color: var(--Gray, #e5e5e5);
+		font-family: Montserrat;
+		font-size: 16px;
+		font-weight: 700;
+        position: relative;
+        &:hover {
+            &:after {
+                width: 100%;
+            }
+        }
+        &:after {
+            transition: all .55s var(--tr3);
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background: var(--Green);
+        }
+	}
+}
+
+.Logotypes {
+	& h3 {
+		color: var(--Gray-Light, #f2f2f2);
+		font-size: 37.842px;
+		font-style: normal;
+		font-weight: 500;
+	}
+}
+
+.headerBtns {
+	color: var(--Gray, #e5e5e5);
+	font-family: Courier New;
+	font-size: 16px;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 7px;
+}
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+	left: 0;
+	background: var(--BLack);
+}

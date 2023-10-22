@@ -1,0 +1,6 @@
+.openList {
+	transition: all 0.55s var(--tr2);
+	& span {
+		transition: all 0.55s var(--tr2);
+	}
+}

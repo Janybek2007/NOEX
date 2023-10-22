@@ -1,0 +1,102 @@
+.one {
+	& h1 {
+		color: var(--Yellow, #dfd1a7);
+		font-family: Courier New;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 140%; /* 25.2px     */
+		width: 359px;
+	}
+	& h4 {
+		color: var(--Gray-Light, #f2f2f2);
+		font-family: Montserrat;
+		font-size: 48px;
+		font-weight: 700;
+		line-height: 120%; /* 57.6px */
+		text-transform: uppercase;
+		width: 780px;
+	}
+	& p {
+		width: 780px;
+		color: var(--Gray-Main, #bbbcbc);
+		font-family: Courier New;
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 140%; /* 33.6px */
+		margin-bottom: 60px;
+		margin-top: 20px;
+	}
+	.toService {
+		display: flex;
+		padding: 15px 30px;
+		align-items: flex-start;
+		gap: 10px;
+		background: var(--Green, #a7c186);
+		color: var(--Black, #0a090d);
+		font-family: Courier New;
+		font-size: 14px;
+		font-weight: 700;
+		text-transform: uppercase;
+		border-radius: 3px;
+		transition: all 0.35s var(--tr2), border 1ms;
+		&:hover {
+			background: transparent;
+			color: white;
+			border: 1px solid var(--Green);
+		}
+	}
+	.toProject {
+		display: flex;
+		padding: 15px 30px;
+		align-items: flex-start;
+		gap: 10px;
+		background: var(--Yellow, #dfd1a7);
+		color: var(--Black-Second, #1f1f1f);
+		text-align: center;
+		font-family: Courier New;
+		font-size: 14px;
+		font-weight: 700;
+		text-transform: uppercase;
+		border-radius: 3px;
+		transition: all 0.35s var(--tr2), border 1ms;
+		&:hover {
+			background: transparent;
+			color: white;
+			border: 1px solid var(--Yellow);
+		}
+	}
+}
+.tTop {
+	& h4 {
+		color: var(--Gray-Light, #f2f2f2);
+		font-family: Montserrat;
+		font-size: 48px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+}
+.line-dashed {
+	width: 100px;
+	height: 1px;
+	border: 1px dashed var(--white-20, rgba(255, 255, 255, 0.5));
+}
+
+.thTop {
+	& h4 {
+		color: var(--Gray-Light, #f2f2f2);
+		font-family: Montserrat;
+		font-size: 48px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+}
+.fTop {
+	& h4 {
+		color: var(--Gray-Light, #f2f2f2);
+		font-family: Montserrat;
+		font-size: 48px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+}
+
