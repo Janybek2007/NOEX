@@ -63,7 +63,7 @@ const WSlides = () => {
 						<div className='card' key={idx}>
 							<div
 								className={`circ ${
-									currentSlide === idx ? 'border-yellow' : ''
+									currentSlide === idx ? 'border-yellow' : 'border-white_20'
 								}`}
 							>
 								<span

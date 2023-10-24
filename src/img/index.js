@@ -40,16 +40,26 @@ import down7 from './dwon7.png'
 import down8 from './down8.png'
 import down9 from './down9.png'
 
+import flex1 from './flex.1.png'
+import flex2 from './flex.2.png'
+
+import sertificate from './sertificate.png'
+
+import notFounds from './notfounds.png'
 export {
-    down1,
-    down2,
-    down3,
-    down4,
-    down5,
-    down6,
-    down7,
-    down8,
-    down9,
+    notFounds,
+    sertificate,
+	flex1,
+	flex2,
+	down1,
+	down2,
+	down3,
+	down4,
+	down5,
+	down6,
+	down7,
+	down8,
+	down9,
 	city1,
 	city2,
 	city3,

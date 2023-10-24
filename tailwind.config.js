@@ -7,6 +7,7 @@ module.exports = {
 				black: 'var(--BLack)',
 				blackSecond: 'var(--Black-Second)',
 				grayLight: 'var(--Gray-Light)',
+				grayMain: 'var(--Gray-main)',
 				grayDark: 'var(--Gray-Dark)',
 				gray: 'var(--Gray)',
 				yellow: 'var(--Yellow)',

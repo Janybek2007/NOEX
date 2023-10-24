@@ -35,6 +35,7 @@
 	--Gray-Light: #f2f2f2;
 	--Gray-Dark: #393939;
 	--Gray: #e5e5e5;
+	--Gray-main: #bbbcbc;
 	--Yellow: #dfd1a7;
 	--Green: #a7c186;
 	--white-20: rgba(255, 255, 255, 0.2);
@@ -102,6 +103,11 @@ html {
 	margin: 0 auto;
 	padding: 0 20px;
 }
-* {
-	color: var(--white-20);
+.cols {
+	height: 30px;
+	transition: all 0.55s var(--tr2);
+}
+.cols.active {
+	height: auto;
+	transition: all 0.55s var(--tr2);
 }
