@@ -31,7 +31,7 @@ const NotFound = () => {
 					</div>
 					<hr className='w-full h-[1px] bg-white_20 mb-[33px] mt-[60px]' />
 					<div className='flex h-[90vh] items-center justify-center text-center relative'>
-						<img className=' absolute' src={notFounds} alt='img' />
+						<img className=' -z-10 absolute' src={notFounds} alt='img' />
 						<div className='flex flex-col items-center justify-center'>
 							<span className='text-[288px] uppercase text-gray font-bold font-Mont leading-[345px]'>
 								404

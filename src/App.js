@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
-import { Header, Footer } from './components/index'
+import { Header, Footer, ServicePage } from './components/index'
 import './App.css'
 
 import {
@@ -45,6 +45,7 @@ function App() {
 					<Route path='/Contact' element={<Contact />} />
 					<Route path='*' element={<NotFound />} />
 					<Route path='/ProjectPage' element={<ProjectPage />} />
+					<Route path='/ServicePage' element={<ServicePage />} />
 				</Routes>
 			</div>
 			{showFooter && <Footer />}

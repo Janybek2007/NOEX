@@ -11,10 +11,11 @@ import QuestionsAndAnswers from './QuestionsAndAnswers'
 import Needs from './Needs'
 import ContactUs from './ContactUs'
 import Projects from './Projects'
-
+import ServicePage from '../pages/ServicesAndPrice/ServicePage'
 export {
-    Projects,
-    ContactUs,
+	ServicePage,
+	Projects,
+	ContactUs,
 	Needs,
 	QuestionsAndAnswers,
 	Header,

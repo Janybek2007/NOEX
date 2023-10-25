@@ -46,9 +46,15 @@ import flex2 from './flex.2.png'
 import sertificate from './sertificate.png'
 
 import notFounds from './notfounds.png'
+
+import vector from './Vector.svg'
+
+import Rect from './Rect.png'
 export {
-    notFounds,
-    sertificate,
+    Rect,
+	vector,
+	notFounds,
+	sertificate,
 	flex1,
 	flex2,
 	down1,
