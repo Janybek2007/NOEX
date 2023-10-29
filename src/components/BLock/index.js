@@ -11,7 +11,7 @@ const BLock = () => {
 	}
 
 	const settings = {
-		dots: false,
+		// dots: false,
 		infinite: true,
 		slidesToShow: 3.5,
 		slidesToScroll: 1,
